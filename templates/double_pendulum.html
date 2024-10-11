@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ g.locale }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>{{ _('Double Pendulum Animation') }}</title>
+</head>
+<body>
+    <header>
+        <h1>{{ _('Double Pendulum Motion') }}</h1>
+        <p>{{ _('This is an example of the double pendulum!') }}</p>
+    </header>
+    <main>
+        <div class="graph-container">
+            <img src="data:image/gif;base64,{{ plot_url }}" alt="Double Pendulum Animation">
+        </div>
+    </main>
+    <footer>
+        <p>{{ _('Simulation based on Langrangian mechanics.') }}</p>
+    </footer>
+</body>
+</html>
+

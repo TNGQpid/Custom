@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ g.locale }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>{{ _('County Map of Wisconsin') }}</title>
+    <style>
+        /* Temporary inline styles for debugging */
+        main {
+            margin-bottom: 50px; /* Add space at the bottom of main content */
+        }
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px; /* Add space above the button */
+        }
+        .button-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>{{ _('County Map of Wisconsin') }}</h1>
+        <p>{{ _('This display generates a map of Wisconsin counties and colors them by their area amounts.') }}</p>
+    </header>
+    <main>
+        <div class="graph-container">
+            <!-- Display the map plot using the plot_url -->
+            <img src="data:image/png;base64,{{ plot_url }}" alt="County Map">
+        </div>
+        <a href="{{ url_for('index') }}?lang={{ lan }}" class="button-link">{{ _('Back to Index Page') }}</a>
+    </main>
+    <footer>
+        <p>{{ _('Geopandes is a useful tool!') }}</p>
+    </footer>
+</body>
+</html>

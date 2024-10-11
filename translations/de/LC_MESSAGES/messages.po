@@ -1,0 +1,281 @@
+# German translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-14 15:06-0500\n"
+"PO-Revision-Date: 2024-07-12 10:30-0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/double_pendulum.html:7
+msgid "Double Pendulum Animation"
+msgstr "Doppelpendel-Animation"
+
+#: templates/double_pendulum.html:11
+msgid "Double Pendulum Motion"
+msgstr "Doppelpendelbewegung"
+
+#: templates/double_pendulum.html:12
+msgid "This is an example of the double pendulum!"
+msgstr "Dies ist ein Beispiel für das Doppelpendel!"
+
+#: templates/double_pendulum.html:20
+msgid "Simulation based on Langrangian mechanics."
+msgstr "Simulation basierend auf Langrangian-Mechanik."
+
+#: templates/index.html:7
+msgid "Flask Website Index"
+msgstr "Flask-Website-Index"
+
+#: templates/index.html:65
+msgid "Welcome to my Website!"
+msgstr "Willkommen auf der Navigationsseite meiner Website!"
+
+#: templates/index.html:66
+msgid "This serves as a repository for key data science and physics skills."
+msgstr ""
+"Dies dient als Aufbewahrungsort für wichtige Kenntnisse in den Bereichen "
+"Datenwissenschaft und Physik."
+
+#: templates/index.html:68
+msgid "Go to Graph Page"
+msgstr "Gehen Sie zur Diagrammseite"
+
+#: templates/index.html:71
+msgid "Do you want to see a map"
+msgstr "Möchten Sie eine Karte sehen?"
+
+#: templates/index.html:74
+msgid "Find out which type of major you are!"
+msgstr "Finden Sie heraus, welcher Studienfachtyp Sie sind!"
+
+#: templates/index.html:77
+msgid "See the very long, very complicated double pendulum"
+msgstr "Sehen Sie sich das sehr lange, sehr komplizierte Doppelpendel an"
+
+#: templates/index.html:79 templates/personal.html:176
+msgid "English"
+msgstr "Englisch"
+
+#: templates/index.html:80 templates/personal.html:177
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: templates/map.html:7 templates/map.html:11
+msgid "County Map of Wisconsin"
+msgstr "Kreiskarte von Wisconsin"
+
+#: templates/map.html:12
+msgid ""
+"This display generates a map of Wisconsin counties and colors them by "
+"their area amounts."
+msgstr ""
+"Diese Anzeige generiert eine Karte der Landkreise Wisconsin und färbt sie"
+" nach ihrer Flächengröße ein."
+
+#: templates/map.html:21
+msgid "Back to Index Page"
+msgstr "Zurück zur Indexseite"
+
+#: templates/map.html:24
+msgid "Geopandes is a useful tool!"
+msgstr "Geopandes ist ein nützliches Werkzeug!"
+
+#: templates/personal.html:6
+msgid "Astrophysics and Data Science Enthusiast"
+msgstr "Enthusiast der Astrophysik und Datenwissenschaft"
+
+#: templates/personal.html:114
+msgid "Data Science and Astrophysics Enthusiast"
+msgstr "Enthusiast für Datenwissenschaft und Astrophysik"
+
+#: templates/personal.html:117 templates/personal.html:124
+msgid "About Me"
+msgstr "Über mich"
+
+#: templates/personal.html:118 templates/personal.html:130
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: templates/personal.html:119 templates/personal.html:149
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/personal.html:120 templates/personal.html:159
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/personal.html:125
+msgid ""
+"Hello! I am a passionate astrophysics and data science double major with "
+"a minor in German. My academic journey has allowed me to delve deep into "
+"the mysteries of the universe while honing my skills in data analysis and"
+" computational methods. I have a keen interest in using data science "
+"techniques to uncover patterns and insights in astronomical data."
+msgstr ""
+"Hallo! Leidenschaftlich studiere ich gerne Astrophysik und "
+"Datenwissenschaft im Doppelstudium mit einem Nebenfach in Deutsch. Meine "
+"akademische Laufbahn hat es mir ermöglicht, tief in die Geheimnisse des "
+"Universums einzutauchen und gleichzeitig meine Fähigkeiten in der "
+"Datenanalyse und in Berechnungsmethoden zu verbessern. Ich habe großes "
+"Interesse daran, datenwissenschaftliche Techniken einzusetzen, um Muster "
+"und Erkenntnisse in astronomischen Daten aufzudecken."
+
+#: templates/personal.html:126
+msgid ""
+"In addition to my academic pursuits, I enjoy learning languages and "
+"exploring new cultures, which led me to minor in German. I believe that a"
+" well-rounded education and diverse experiences contribute to a richer "
+"understanding of the world."
+msgstr ""
+"Neben meinen akademischen Aktivitäten genieße ich es, Sprachen zu lernen "
+"und neue Kulturen zu erkunden, was mich zum Nebenfach Deutsch geführt "
+"hat. Ich glaube, dass eine umfassende Ausbildung und vielfältige "
+"Erfahrungen zu einem umfassenderen Verständnis der Welt beitragen."
+
+#: templates/personal.html:134
+msgid ""
+"In order to have a place to document my findings and express analytical "
+"strategies and techniques, I created this entire website by hand from "
+"scratch. I included knowlege of both key data science and astrophysical "
+"concepts, such as a working, animated model of the imfamous double "
+"pendulum, and various maps and graphs using matplotlib (like the header, "
+"for instance) and geopandas."
+msgstr ""
+"Um einen Ort zu haben, an dem ich meine Ergebnisse dokumentieren und "
+"analytische Strategien und Techniken zum Ausdruck bringen kann, habe ich "
+"diese gesamte Website von Grund auf von Hand erstellt. Ich habe "
+"Kenntnisse sowohl über wichtige datenwissenschaftliche als auch "
+"astrophysikalische Konzepte einbezogen, wie zum Beispiel ein "
+"funktionierendes, animiertes Modell des berüchtigten Doppelpendels sowie "
+"verschiedene Karten und Grafiken mit Matplotlib (wie zum Beispiel der "
+"Header) und Geopandas."
+
+#: templates/personal.html:137
+msgid "Cosmology: Dark Matter Overdensities"
+msgstr "Kosmologie: Überdichten der Dunklen Materie"
+
+#: templates/personal.html:139
+msgid ""
+"While collabortating with a series of graduate, undergraduate, and "
+"professonal peers, a groundbreaking model using PyTorch's machine "
+"learning was created to map and express linear overdensities in dark "
+"matter throughout the universe. This model combined complex astrophysical"
+" concepts like Fourier space and dark matter clumping with cutting-edge "
+"machine learning. Translationally and rotationally invariant features "
+"were then added to account for orientation details."
+msgstr ""
+"In Zusammenarbeit mit einer Reihe von Hochschulabsolventen, Studenten und"
+" Berufskollegen wurde ein bahnbrechendes Modell mithilfe des maschinellen"
+" Lernens von PyTorch entwickelt, um lineare Überdichten in der Dunklen "
+"Materie im gesamten Universum abzubilden und auszudrücken. Dieses Modell "
+"kombinierte komplexe astrophysikalische Konzepte wie den Fourier-Raum und"
+" die Verklumpung dunkler Materie mit modernstem maschinellem Lernen. "
+"Anschließend wurden translatorisch-und-rotationsinvariante Merkmale "
+"hinzugefügt, um Orientierungsdetails zu berücksichtigen."
+
+#: templates/personal.html:142
+msgid "Artificial Intelligence: Chatbot Training"
+msgstr "Künstliche Intelligenz: Chatbot-Training"
+
+#: templates/personal.html:144
+msgid ""
+"To leverage a sharp balance of artificial intelligence and coding "
+"background, a chatbot was created, personally trained, and then "
+"integrated into this website."
+msgstr ""
+"Um ein ausgewogenes Verhältnis zwischen künstlicher Intelligenz und "
+"Programmierkenntnissen zu erzielen, wurde ein Chatbot erstellt, "
+"persönlich trainiert und dann in diese Website integriert."
+
+#: templates/personal.html:150
+msgid ""
+"If you have any questions or would like to connect, feel free to reach "
+"out to me via the following methods:"
+msgstr ""
+"Wenn Sie Fragen haben oder Kontakt aufnehmen möchten, können Sie mich "
+"gerne über die folgenden Methoden kontaktieren:"
+
+#: templates/personal.html:152
+msgid "Email:"
+msgstr "Email:"
+
+#: templates/personal.html:161
+msgid "Stunning JWST galaxy poses questions about galaxy formation"
+msgstr "Atemberaubende JWST-Galaxie wirft Fragen zur Galaxienentstehung auf"
+
+#: templates/personal.html:163
+msgid ""
+"After significant spectral analysis, JWST's NIRCAM sighted a galaxy "
+"(JWST-7329) at a redshift of 3.2 whose starts formed at a redshift of 11 "
+"when insufficient local dark matter mass was present to allow such "
+"structures, once again raising questions about the current understanding "
+"of galaxy formation."
+msgstr ""
+"Nach einer umfassenden Spektralanalyse sichtete das NIRCAM des JWST eine "
+"Galaxie (JWST-7329) mit einer Rotverschiebung von 3,2, deren Sterne sich "
+"bei einer Rotverschiebung von 11 bildeten, als nicht genügend lokale "
+"Masse dunkler Materie vorhanden war, um solche Strukturen zu ermöglichen,"
+" was erneut Fragen zum aktuellen Verständnis aufwirft Galaxienentstehung."
+
+#: templates/personal.html:166
+msgid "German Club Presidency"
+msgstr "Deutsches Clubpräsidium"
+
+#: templates/personal.html:168
+msgid ""
+"I'm pleased to announce that I will once again be the president of German"
+" Club located at the University of Wisconsin-Madison for the 2024-2025 "
+"academic year, where weekly events will take place in order to drive "
+"students' passion for learning German while also being a part of a unique"
+" cultural community!"
+msgstr ""
+"Ich freue mich, Ihnen mitteilen zu können, dass ich im akademischen Jahr "
+"2024–2025 erneut Präsident des German Club an der University of "
+"Wisconsin-Madison sein werde, in dem wöchentliche Veranstaltungen "
+"stattfinden, um die Leidenschaft der Studierenden für das Erlernen der "
+"deutschen Sprache zu fördern auch Teil einer einzigartigen "
+"Kulturgemeinschaft sein!"
+
+#: templates/personal.html:171
+msgid "Project: Advancement"
+msgstr "Projekt: Weiterentwicklung"
+
+#: templates/personal.html:173
+msgid ""
+"I have the honor to collaborate with Professor Muenchmeyer of the "
+"University of Wisconsin-Madison, co-founder of Wolution, on a series of "
+"projects that will expand the barriers of known science through his "
+"unqiue expertise of blending and being the leading edge of machine "
+"learning with cosmology!"
+msgstr ""
+"Ich habe die Ehre, mit Professor Münchmeyer von der Universität "
+"Wisconsin-Madison, dem Mitbegründer von Wolution, an einer Reihe von "
+"Projekten zusammenzuarbeiten, die die Grenzen der bekannten Wissenschaft "
+"durch seine einzigartige Expertise in der Verschmelzung und als Vorreiter"
+" im Bereich maschinelles Lernen erweitern werden mit Kosmologie!"
+
+#: templates/personal.html:175
+msgid "Go to the index!"
+msgstr "Gehen Sie zur Indexseite!"
+
+#: templates/personal.html:179
+msgid "2024 Astrophysics and Data Science Enthusiast. All rights reserved."
+msgstr ""
+"2024 Enthusiast der Astrophysik und Datenwissenschaft. Alle Rechte "
+"vorbehalten."
+
+#~ msgid "This is a very basic example of a Flask-powered website."
+#~ msgstr "Dies ist ein einfaches Beispiel einer Flask-basierten Website"
+
