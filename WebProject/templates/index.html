@@ -1,0 +1,82 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="{{ g.locale }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ _('Flask Website Index') }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .content {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .button-blue {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button-blue:hover {
+            background-color: #0056b3;
+        }
+        .button-red {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button-red:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>{{ _('Welcome to my Website!') }}</h1>
+        <p>{{ _('This serves as a repository for key data science and physics skills.') }}</p>
+        <!-- Button to navigate to the graph page -->
+        <a href="{{ url_for('graph') }}"><button class="button-blue">{{ _('Go to Graph Page') }}</button></a>
+        <br>
+        <br>
+        <a href="{{ url_for('map') }}?lang={{ lan }}"><button class="button-blue">{{ _('Do you want to see a map') }}</button></a>
+        <br>
+        <br>
+        <a href="{{ url_for('major') }}"><button class="button-blue">{{ _('Find out which type of major you are!') }}</button></a>
+        <br>
+        <br>
+        <a href="{{ url_for('double_pendulum') }}?lang={{ lan }}"><button class="button-blue">{{ _('See the very long, very complicated double pendulum') }}</button></a>
+    </div>
+    <a href="{{ url_for('index') }}?lang=en"><button class="button-red">{{ _('English') }}</button></a>
+    <a href="{{ url_for('index') }}?lang=de"><button class="button-red">{{ _('Deutsch') }}</button></a>
+</body>
+</html>
